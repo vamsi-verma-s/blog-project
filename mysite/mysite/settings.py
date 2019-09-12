@@ -119,3 +119,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# To write emails to console if u don't have a SMTP server
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'vamsivermas@gmail.com'
+EMAIL_HOST_PASSWORD = '*890Diamond'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
