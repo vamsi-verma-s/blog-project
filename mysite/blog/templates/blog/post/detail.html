@@ -30,7 +30,7 @@
             </p>
             {{ comment.body|linebreaks }}
         </div>
-    {% else %}
+    {% empty %}
         <p>There are no comments yet.</p>
     {% endfor %}
     {% if new_comment %}
